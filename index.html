@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oficina de esportes: Ginástica Artística</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Theme Switcher -->
+  <div class="theme-switch-wrapper">
+    <span class="theme-switch">
+      <label>
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+      </label>
+    </span>
+    <i class="fas fa-moon"></i>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>Oficina de esportes</h1>
+        <p>Ginástica Artística</p>
+      </div>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#cursos">Cursos e Aulas</a></li>
+        <li><a href="#horarios">Horários</a></li>
+        <li><a href="#inscricao">Inscreva-se</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#aula-experimental" class="cta-button">Agende uma Aula Experimental</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner Principal -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Transforme Seu Corpo, Inspire-se na Arte da Ginástica!</h2>
+      <p>Descubra o poder da ginástica artística em um ambiente acolhedor e profissional</p>
+      <a href="#inscricao" class="cta-button">Inscreva-se Agora</a>
+    </div>
+  </section>
+
+  <!-- Sobre Nós -->
+  <section id="sobre" class="about">
+    <h2>Sobre Nós</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Somos uma escola dedicada ao desenvolvimento integral através da ginástica artística. Nossa missão é inspirar
+          e transformar vidas através do esporte.</p>
+        <h3>Nossa Equipe</h3>
+        <p>Contamos com profissionais altamente qualificados e apaixonados pela ginástica artística.</p>
+      </div>
+      <div class="about-images">
+        <img src="https://source.unsplash.com/random/400x300/?gymnastics" alt="Treino de ginástica">
+      </div>
+    </div>
+  </section>
+
+  <!-- Cursos e Aulas -->
+  <section id="cursos" class="courses">
+    <h2>Cursos e Aulas</h2>
+    <div class="courses-grid">
+      <div class="course-card">
+        <i class="fas fa-child"></i>
+        <h3>Ginástica Infantil</h3>
+        <p>Desenvolvimento motor e social para crianças</p>
+      </div>
+      <div class="course-card">
+        <i class="fas fa-running"></i>
+        <h3>Iniciantes</h3>
+        <p>Primeiros passos na ginástica artística</p>
+      </div>
+      <div class="course-card">
+        <i class="fas fa-trophy"></i>
+        <h3>Avançado</h3>
+        <p>Treinamento para competições</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horários -->
+  <section id="horarios" class="schedule">
+    <h2>Horários</h2>
+    <div class="schedule-table">
+      <table>
+        <tr>
+          <th>Horário</th>
+          <th>Segunda</th>
+          <th>Quarta</th>
+          <th>Sexta</th>
+        </tr>
+        <tr>
+          <td>09:00</td>
+          <td>Infantil</td>
+          <td>Infantil</td>
+          <td>Infantil</td>
+        </tr>
+        <tr>
+          <td>14:00</td>
+          <td>Iniciantes</td>
+          <td>Iniciantes</td>
+          <td>Iniciantes</td>
+        </tr>
+        <tr>
+          <td>16:00</td>
+          <td>Avançado</td>
+          <td>Avançado</td>
+          <td>Avançado</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="testimonials">
+    <h2>Depoimentos</h2>
+    <div class="testimonials-slider">
+      <div class="testimonial">
+        <img src="https://source.unsplash.com/random/100x100/?person" alt="Depoimento 1">
+        <p>"Minha filha evoluiu muito desde que começou as aulas!"</p>
+        <span>- Maria Silva</span>
+      </div>
+      <div class="testimonial">
+        <img src="https://source.unsplash.com/random/100x100/?woman" alt="Depoimento 2">
+        <p>"Professores excelentes e ambiente muito acolhedor."</p>
+        <span>- João Santos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contact">
+    <h2>Contato</h2>
+    <div class="contact-container">
+      <div class="contact-form">
+        <form id="contactForm">
+          <input type="text" placeholder="Nome" required>
+          <input type="email" placeholder="E-mail" required>
+          <input type="tel" placeholder="Telefone" required>
+          <textarea placeholder="Mensagem" required></textarea>
+          <button type="submit" class="cta-button">Enviar Mensagem</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h3>Informações</h3>
+        <p><i class="fas fa-map-marker-alt"></i> Rua da Ginástica, 123</p>
+        <p><i class="fas fa-phone"></i> (11) 99999-9999</p>
+        <p><i class="fab fa-whatsapp"></i> (11) 98888-8888</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Links Rápidos</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Redes Sociais</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Oficina de esportes: Ginástica Artística. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
